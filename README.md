@@ -1,21 +1,33 @@
-![Moustafa Hosny Thabet · Robotics and Embedded Systems](assets/profile-banner.png)
+![Moustafa Hosny Thabet — Multidisciplinary Technologist, Robotics and Embedded Systems](assets/engineering-hero.svg)
 
-I build prototypes that connect sensors, firmware, and desktop software. My projects bring together the electronics, the code, and the workflow people use to operate them.
+I build prototypes that connect **electronics, firmware, and software**, from reading a sensor to making the result useful to the person operating the system.
 
-## Featured project — [NFC Attendance System](https://github.com/moustafa-thabet1/nfc-attendance-system)
+**[Explore the attendance system](https://github.com/moustafa-thabet1/nfc-attendance-system)** · **[Run the software demo](https://github.com/moustafa-thabet1/nfc-attendance-system#try-it-without-hardware)** · **[Browse repositories](https://github.com/moustafa-thabet1?tab=repositories)**
 
-An Arduino and MFRC522 card reader with a fabricated PCB and a Python desktop app. The app imports class rosters from Excel and exports attendance records for lecturers.
+## Featured project · NFC Attendance System
 
-In a classroom pilot at Pharos University in Alexandria, a class with **91 enrolled students** completed attendance in **under five minutes**, with zero discrepancies against the manually verified list for that session.
+![Campus card → Arduino reader → Python app → Excel export](assets/attendance-flow.svg)
 
-**[Explore the firmware, PCB layout, and desktop demo](https://github.com/moustafa-thabet1/nfc-attendance-system#try-it-without-hardware)**
+A classroom attendance prototype built with an **Arduino Nano, MFRC522 reader, custom PCB, and Python desktop app**. The lecturer imports a roster, students tap their cards, and the app exports the result to Excel.
 
-## Projects in my portfolio
+| Classroom pilot | Result |
+| :--- | :--- |
+| Class size | **91 enrolled students** |
+| Attendance time | **Under 5 minutes** |
+| Comparison with manually verified list | **0 discrepancies in that session** |
 
-| Project | Focus |
-| --- | --- |
-| Firefighting boat | Arduino, propulsion, water pump, and Bluetooth control |
-| Competition ROV | An underwater vehicle built with a team for the Afro-Asian Forum competition |
-| NovaChip | A discrete-transistor processor being built in stages |
+[Source code, PCB layout, and pilot details →](https://github.com/moustafa-thabet1/nfc-attendance-system)
 
-[Browse my repositories](https://github.com/moustafa-thabet1?tab=repositories)
+## On the workbench
+
+| Project | What it explores |
+| :--- | :--- |
+| **Firefighting Boat** | Arduino-based propulsion, pump control, and Bluetooth operation |
+| **Competition ROV** | An underwater vehicle built with a team for the Afro-Asian Forum competition |
+| **NovaChip** · In progress | Building a processor in stages from discrete transistors |
+
+## Tools I build with
+
+**Firmware:** Arduino · C/C++ · ESP32  
+**Desktop software:** Python · Tkinter · Excel import/export  
+**Hardware:** Sensor integration · Serial interfaces · PCB prototyping

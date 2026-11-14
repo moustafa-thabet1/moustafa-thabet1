@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 125" role="img" aria-label="Attendance system data flow: campus card to Arduino reader to Python app to Excel">
+<style>.flow{stroke-dasharray:8 100;animation:flow 2s linear infinite}.b{animation-delay:-.66s}.c{animation-delay:-1.33s}@keyframes flow{to{stroke-dashoffset:-108}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+<rect x="1" y="1" width="898" height="123" rx="17" fill="#0a192f" stroke="#355068"/>
+<g fill="#122b45" stroke="#45627f"><rect x="25" y="39" width="167" height="47" rx="10"/><rect x="252" y="39" width="167" height="47" rx="10"/><rect x="480" y="39" width="167" height="47" rx="10"/><rect x="708" y="39" width="167" height="47" rx="10"/></g>
+<g fill="none" stroke="#4b6682" stroke-width="3"><path d="M192 62h60m167 0h61m167 0h61"/></g>
+<g fill="none" stroke="#ff793e" stroke-width="4" stroke-linecap="round"><path class="flow" d="M193 62h58"/><path class="flow b" d="M420 62h59"/><path class="flow c" d="M648 62h59"/></g>
+<g text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" font-weight="600" fill="#f6f8fd"><text x="108" y="69">Campus card</text><text x="336" y="69">Arduino reader</text><text x="564" y="69">Python app</text><text x="792" y="69">Excel export</text></g></svg>

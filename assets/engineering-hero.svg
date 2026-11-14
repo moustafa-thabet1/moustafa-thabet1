@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="Moustafa Hosny Thabet, Multidisciplinary Technologist">
+<defs>
+<linearGradient id="bg" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#081320"/><stop offset="1" stop-color="#152d48"/></linearGradient>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7599ba" stroke-opacity=".13"/></pattern>
+</defs>
+<style>
+.signal{stroke-dasharray:16 320;animation:signal 3.4s linear infinite}
+.s2{animation-delay:-1.7s}
+@keyframes signal{to{stroke-dashoffset:-336}}
+.label{animation:cycle 9s infinite}
+.second{animation-delay:-6s}
+.third{animation-delay:-3s}
+@keyframes cycle{0%,26%{opacity:1}33%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="898" height="298" rx="22" fill="url(#bg)" stroke="#355068"/>
+<rect x="2" y="2" width="896" height="296" rx="21" fill="url(#grid)"/>
+<g fill="none" stroke="#31516d" stroke-width="2">
+<path id="top" d="M578 52h92l42 42h47m-139 4h34l30 30h75"/>
+<path d="M759 172h-71l-41 41h-63m175-11h-41l-45 45h-70"/>
+</g>
+<g fill="none" stroke="#ff793e" stroke-width="3" stroke-linecap="round">
+<path class="signal" d="M578 52h92l42 42h47"/>
+<path class="signal s2" d="M584 213h63l41-41h71"/>
+</g>
+<g fill="#142b43" stroke="#ff793e" stroke-width="2">
+<rect x="759" y="78" width="108" height="141" rx="13"/>
+<path d="M751 94h8m-8 34h8m-8 44h8m-8 30h8m108-108h8m-8 34h8m-8 44h8m-8 30h8"/>
+</g>
+<text x="813" y="163" text-anchor="middle" fill="#ff955f" font-family="monospace" font-size="34" font-weight="700">MH</text>
+<path d="M40 56v194" stroke="#ff793e" stroke-width="4" stroke-linecap="round"/>
+<g font-family="system-ui, sans-serif">
+<text x="62" y="82" fill="#ff955f" font-size="16" font-weight="700" letter-spacing="3">ENGINEERING PORTFOLIO</text>
+<text x="61" y="143" fill="#f6f8fd" font-size="47" font-weight="750">Moustafa Hosny Thabet</text>
+<text x="63" y="186" fill="#c2d5e8" font-size="24">Multidisciplinary Technologist</text>
+</g>
+<g fill="#ff955f" font-family="monospace" font-size="20">
+<text class="label" x="63" y="238">01 / ROBOTICS</text>
+<text class="label second" opacity="0" x="63" y="238">02 / EMBEDDED SYSTEMS</text>
+<text class="label third" opacity="0" x="63" y="238">03 / HARDWARE + SOFTWARE</text>
+</g>
+</svg>
