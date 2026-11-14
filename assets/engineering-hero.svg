@@ -1,42 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="Moustafa Hosny Thabet, Multidisciplinary Technologist">
-<defs>
-<linearGradient id="bg" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#081320"/><stop offset="1" stop-color="#152d48"/></linearGradient>
-<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7599ba" stroke-opacity=".13"/></pattern>
-</defs>
-<style>
-.signal{stroke-dasharray:16 320;animation:signal 3.4s linear infinite}
-.s2{animation-delay:-1.7s}
-@keyframes signal{to{stroke-dashoffset:-336}}
-.label{animation:cycle 9s infinite}
-.second{animation-delay:-6s}
-.third{animation-delay:-3s}
-@keyframes cycle{0%,26%{opacity:1}33%,100%{opacity:0}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important}}
-</style>
-<rect x="1" y="1" width="898" height="298" rx="22" fill="url(#bg)" stroke="#355068"/>
-<rect x="2" y="2" width="896" height="296" rx="21" fill="url(#grid)"/>
-<g fill="none" stroke="#31516d" stroke-width="2">
-<path id="top" d="M578 52h92l42 42h47m-139 4h34l30 30h75"/>
-<path d="M759 172h-71l-41 41h-63m175-11h-41l-45 45h-70"/>
-</g>
-<g fill="none" stroke="#ff793e" stroke-width="3" stroke-linecap="round">
-<path class="signal" d="M578 52h92l42 42h47"/>
-<path class="signal s2" d="M584 213h63l41-41h71"/>
-</g>
-<g fill="#142b43" stroke="#ff793e" stroke-width="2">
-<rect x="759" y="78" width="108" height="141" rx="13"/>
-<path d="M751 94h8m-8 34h8m-8 44h8m-8 30h8m108-108h8m-8 34h8m-8 44h8m-8 30h8"/>
-</g>
-<text x="813" y="163" text-anchor="middle" fill="#ff955f" font-family="monospace" font-size="34" font-weight="700">MH</text>
-<path d="M40 56v194" stroke="#ff793e" stroke-width="4" stroke-linecap="round"/>
-<g font-family="system-ui, sans-serif">
-<text x="62" y="82" fill="#ff955f" font-size="16" font-weight="700" letter-spacing="3">ENGINEERING PORTFOLIO</text>
-<text x="61" y="143" fill="#f6f8fd" font-size="47" font-weight="750">Moustafa Hosny Thabet</text>
-<text x="63" y="186" fill="#c2d5e8" font-size="24">Multidisciplinary Technologist</text>
-</g>
-<g fill="#ff955f" font-family="monospace" font-size="20">
-<text class="label" x="63" y="238">01 / ROBOTICS</text>
-<text class="label second" opacity="0" x="63" y="238">02 / EMBEDDED SYSTEMS</text>
-<text class="label third" opacity="0" x="63" y="238">03 / HARDWARE + SOFTWARE</text>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="310" viewBox="0 0 900 310" role="img" aria-label="Moustafa Hosny Thabet — Multidisciplinary Technologist">
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#26364b" opacity=".52"/></pattern><radialGradient id="glow"><stop stop-color="#ff874d" stop-opacity=".15"/><stop offset="1" stop-color="#ff874d" stop-opacity="0"/></radialGradient></defs>
+<style>.pulse{stroke-dasharray:19 240;animation:travel 3s linear infinite}.p2{animation-delay:-1.5s}.orbit{transform-origin:744px 155px;animation:spin 14s linear infinite}@keyframes travel{to{stroke-dashoffset:-259}}@keyframes spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.pulse,.orbit{animation:none}}</style>
+<rect x="1" y="1" width="898" height="308" rx="23" fill="#0A101B" stroke="#29364a"/><rect x="2" y="2" width="896" height="306" rx="22" fill="url(#grid)"/><ellipse cx="744" cy="155" rx="140" ry="140" fill="url(#glow)"/>
+<g fill="none" stroke="#38465a"><circle cx="744" cy="155" r="99"/><circle cx="744" cy="155" r="80"/><path d="M580 87h42l44 35m-106 98h62l44-32m156-66 32-32h18m-50 98 32 32h18"/></g>
+<g fill="none" stroke="#FF874D" stroke-width="3" stroke-linecap="round"><path class="pulse" d="M580 87h42l44 35"/><path class="pulse p2" d="M560 220h62l44-32"/></g><g class="orbit"><circle cx="744" cy="56" r="5" fill="#FF874D"/><circle cx="744" cy="254" r="3" fill="#FF874D"/></g>
+<rect x="690" y="101" width="108" height="108" rx="23" fill="#121d2c" stroke="#FF874D" stroke-width="2"/>
+<text x="744" y="169" text-anchor="middle" font-family="monospace" font-weight="700" font-size="41" fill="#FF874D">MH</text>
+<path d="M44 65v181" stroke="#FF874D" stroke-width="4" stroke-linecap="round"/><g font-family="system-ui,sans-serif"><text x="66" y="91" fill="#FF874D" font-size="15" font-weight="700" letter-spacing="2.8">MULTIDISCIPLINARY TECHNOLOGIST</text><text x="64" y="153" fill="#F4F7FC" font-size="43" font-weight="750">Moustafa Hosny Thabet</text><text x="67" y="200" fill="#C2CEDD" font-size="21">Robotics · Embedded Systems · STEM Education</text><text x="67" y="242" fill="#A6B6CA" font-size="17">Alexandria, Egypt</text></g></svg>
