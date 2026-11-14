@@ -1,4 +1,4 @@
-![Moustafa Hosny Thabet — Multidisciplinary Technologist, Robotics and Embedded Systems](assets/engineering-hero.svg)
+<img src="assets/engineering-hero.svg" alt="Moustafa Hosny Thabet — Multidisciplinary Technologist, Robotics and Embedded Systems" width="100%" />
 
 I build prototypes that connect **electronics, firmware, and software**, from reading a sensor to making the result useful to the person operating the system.
 
@@ -6,7 +6,7 @@ I build prototypes that connect **electronics, firmware, and software**, from re
 
 ## Featured project · NFC Attendance System
 
-![Campus card → Arduino reader → Python app → Excel export](assets/attendance-flow.svg)
+<img src="assets/attendance-flow.svg" alt="Campus card → Arduino reader → Python app → Excel export" width="100%" />
 
 A classroom attendance prototype built with an **Arduino Nano, MFRC522 reader, custom PCB, and Python desktop app**. The lecturer imports a roster, students tap their cards, and the app exports the result to Excel.
 
