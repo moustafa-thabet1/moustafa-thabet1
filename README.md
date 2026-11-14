@@ -1,6 +1,4 @@
-# Moustafa Hosny Thabet
-
-**Multidisciplinary Technologist · Robotics & Embedded Systems**
+![Moustafa Hosny Thabet · Robotics and Embedded Systems](assets/profile-banner.png)
 
 I build prototypes that connect sensors, firmware, and desktop software. My projects bring together the electronics, the code, and the workflow people use to operate them.
 
